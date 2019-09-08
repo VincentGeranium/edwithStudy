@@ -25,6 +25,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.initializePlayer()
+        self.addViewsWithCode()
     }
     
     // MARK: - Methods
@@ -74,6 +75,30 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         self.timer.invalidate()
         self.timer = nil
     }
+    
+    func addViewsWithCode() {
+        self.addPlayPauseButton()
+        self.addTimeLabel()
+        self.addProgressSlider()
+    }
+    
+    func addPlayPauseButton() {
+        let button: UIButton = UIButton(type: .custom)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        
+        self.view.addSubview(<#T##view: UIView##UIView#>)
+    }
+    
+    func addTimeLabel() {
+        
+    }
+    
+    func addProgressSlider() {
+        
+    }
+    
+    
+    
     
     @IBAction func touchUpPlayPauseButton(_ sender: UIButton) {
         
