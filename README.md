@@ -1,2 +1,3 @@
 # edwithStudy
-edwith
+
+project 1 - MusicApp
